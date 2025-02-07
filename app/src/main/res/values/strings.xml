@@ -5,5 +5,8 @@
     <string name="love_A">I love Android!</string>
     <string name="press">Press Me</string>
     <string name="check">Check This Out</string>
+    <string name="dont">Don't call me that!</string>
+    <string name="ty">Thank you</string>
+
 
 </resources>
