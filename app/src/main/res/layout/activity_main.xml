@@ -5,42 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     tools:context=".MainActivity">
-
-    <!-- ListView for displaying todo items -->
-    <ListView
-        android:id="@+id/LV2"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_margin="8dp"/>
-
-    <!-- Input Row: EditText + Add Button + Urgent Switch -->
-    <LinearLayout
+<ImageView
+    android:id="@+id/catImageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp">
-
-        <EditText
-            android:id="@+id/etTodoText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:hint="Type your task"
-            android:textSize="16sp"/>
-
-        <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Add"/>
-
-        <Switch
-            android:id="@+id/switchUrgent"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Urgent"/>
-    </LinearLayout>
-
+        android:layout_alignParentBottom="true"/>
 </LinearLayout>

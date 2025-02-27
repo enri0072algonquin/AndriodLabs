@@ -1,12 +1,14 @@
 <resources>
-    <string name="app_name">AndroidLabs</string>
     <string name="hello_world">Hello World</string>
     <string name="button_text">I/m a button!</string>
-    <string name="love_A">I love Android!</string>
-    <string name="press">Press Me</string>
-    <string name="check">Check This Out</string>
-    <string name="dont">Don't call me that!</string>
-    <string name="ty">Thank you</string>
-
+    <string name="love_A" translatable="false">I love Android!</string>
+    <string name="press" translatable="false">Press Me</string>
+    <string name="check" translatable="false">Check This Out</string>
+    <string name="ty" translatable="false">Thank you</string>
+    <string name="app_name">To do App</string>
+    <string name="add_todo">Add</string>
+<string name="enter_todo">Enter your to do</string>
+    <string name="urgent">Urgent</string>
+    <string name="todo_deleted"> To do deleted</string>
 
 </resources>

@@ -2,4 +2,9 @@
 <resources>
     <string name="hello_world">Bonjour le monde</string>
     <string name="button_text">Je suis un bouton!</string>
+    <string name="urgent">Urgent</string>
+    <string name="todo_deleted">Tâche supprimée </string>
+    <string name="app_name">Application de tâches</string>
+    <string name="add_todo">Ajouter</string>
+    <string name="enter_todo">Entrez votre tâche</string>
 </resources>
