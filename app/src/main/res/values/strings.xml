@@ -7,8 +7,11 @@
     <string name="ty" translatable="false">Thank you</string>
     <string name="app_name">To do App</string>
     <string name="add_todo">Add</string>
-<string name="enter_todo">Enter your to do</string>
+    <string name="enter_todo">Enter your to do</string>
     <string name="urgent">Urgent</string>
     <string name="todo_deleted"> To do deleted</string>
+    <string name="fill_me" translatable="false"> fill_me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

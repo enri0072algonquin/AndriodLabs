@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/black"
-    tools:context=".MainActivity">
-<ImageView
-    android:id="@+id/catImageView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scaleType="fitCenter"/>
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"/>
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/ListViewFull"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/detailContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
 </LinearLayout>
