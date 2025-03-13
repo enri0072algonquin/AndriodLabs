@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/butterfly"/>
+    <item android:id="@+id/nav_dad_joke"
+        android:title="Dad Joke"
+        android:icon="@drawable/ship"/>
+    <item android:id="@+id/nav_exit"
+        android:title="Exit"
+        android:icon="@drawable/ship"/>
+</menu>

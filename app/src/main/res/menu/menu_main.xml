@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_main">
+
+    <item
+        android:id="@+id/MailItem"
+        android:title="Mail"
+        app:showAsAction="always"
+        android:icon="@drawable/butterfly" />
+
+    <item
+        android:id="@+id/ContentItem"
+        android:title="Content"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/DadJokeItem"
+        android:title="Dad Joke"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/choice_1"
+        android:icon="@drawable/butterfly"
+        android:title="Choice 1"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/choice_2"
+        android:icon="@drawable/ship"
+        android:title="Choice 2"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/overflow_item"
+        android:title="Overflow Item"
+        app:showAsAction="never"/>
+</menu>
